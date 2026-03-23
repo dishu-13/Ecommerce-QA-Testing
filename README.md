@@ -1,44 +1,50 @@
-# 🛒 E-Commerce Web Application Testing
+# 🛒 E-Commerce QA Testing Project
 
 ## 📌 Project Overview
-This project focuses on **manual testing of an E-commerce web application** to ensure high-quality performance, functionality, and user experience. The testing process covers all major modules including authentication, product search, cart, and checkout.
+This project demonstrates **manual testing of an E-commerce web application**. The goal was to validate core functionalities and ensure that the system behaves as expected under different scenarios.
 
 ---
 
-## 🎯 Objectives
-- Validate core functionalities of the application  
-- Identify and report bugs with proper documentation  
-- Ensure smooth user experience across critical workflows  
-- Improve software quality through structured testing  
+## 🧪 Modules Covered
+- Login & Registration  
+- Product Search  
+- Cart Management  
+- Coupon Application  
+- Checkout & Payment  
+- Order History  
 
 ---
 
-## 🧪 Testing Scope
-The following modules were tested:
+## 🧾 Test Cases Details
+- Total Test Cases: **14**
+- All test cases include:
+  - Module  
+  - Preconditions  
+  - Test Steps  
+  - Expected Result  
+  - Actual Result  
+  - Status (Pass)  
+  - Priority (High/Medium/Low)  
 
-- 🔐 User Registration & Login  
-- 🔍 Product Search & Filtering  
-- 🛒 Cart Management  
-- 💳 Checkout & Payment  
-- 📦 Order Management  
-
----
-
-## 🧾 Test Artifacts Included
-- ✅ **Test_Cases.xlsx**  
-  - 14+ detailed test cases  
-  - Includes: Preconditions, Steps, Expected Result, Actual Result, Status, Priority  
-
-- 🐞 **Bug_Report.xlsx**  
-  - Realistic bug reports  
-  - Includes: Severity, Priority, Steps to Reproduce, Status  
+### ✔ Test Execution Summary
+- Passed: 14  
+- Failed: 0  
 
 ---
 
-## 🧰 Tools & Technologies
-- Manual Testing  
-- Microsoft Excel  
-- Jira (Conceptual Knowledge)  
+## 🐞 Bug Report Details
+- Total Bugs Identified: **3**
+
+### Bug Summary:
+1. Login fails with valid credentials (High Severity)  
+2. Cart quantity not updating (Medium Severity)  
+3. Coupon not applied correctly (Medium Severity)  
+
+Each bug includes:
+- Steps to reproduce  
+- Expected vs Actual Result  
+- Severity & Priority  
+- Status (Open)  
 
 ---
 
@@ -46,32 +52,30 @@ The following modules were tested:
 - Functional Testing  
 - Regression Testing  
 - UI Testing  
-- User Acceptance Testing (UAT)  
 
 ---
 
-## 🐞 Sample Bug Highlights
-- Login failure with valid credentials  
-- Cart item quantity not updating  
-- Coupon code not applying correctly  
+## 🧰 Tools Used
+- Microsoft Excel (Test Cases & Bug Reports)  
+- Manual Testing Techniques  
 
 ---
 
 ## 📊 Outcome
-- Successfully executed all test cases  
-- Identified critical and medium-level defects  
-- Improved overall application reliability and performance  
+- Successfully validated all core functionalities  
+- Identified critical issues in login and checkout modules  
+- Improved understanding of real-world QA process  
 
 ---
 
 ## 🚀 Key Learnings
-- Test case design and execution  
-- Bug reporting with severity & priority  
-- Understanding of SDLC & STLC  
-- Real-world QA workflow experience  
+- Writing structured test cases  
+- Executing test scenarios  
+- Logging bugs with proper format  
+- Understanding bug severity & priority  
 
 ---
 
-## 📌 Author
-**Dishu Daksh**  
-Aspiring Quality Analyst | B.Tech CSE  
+## 👨‍💻 Author
+Dishu Daksh  
+Aspiring Quality Analyst  
